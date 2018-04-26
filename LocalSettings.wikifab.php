@@ -41,6 +41,7 @@ wfLoadExtension( 'SemanticExtraSpecialProperties' );
 wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
 wfLoadExtension( 'UsersPagesLinks' );
+wfLoadExtension( 'CommentStreams' );
 
 
 $wgScribuntoDefaultEngine = 'luastandalone';
