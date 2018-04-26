@@ -191,3 +191,5 @@ $wfexploreCategoriesNames['Page_creator'] = wfMessage("wfexplore-filters-page-cr
 $wfexploreCategoriesNames['Google_Analytics_Views'] = wfMessage('wfexplore-filters-views');
 $wfexploreCategoriesNames['I_did_it'] = wfMessage('wfexplore-filters-ididit');
 $wfexploreCategoriesNames['Favorites'] = wfMessage('wfexplore-filters-favorites');
+
+$wgDefaultUserOptions['multimediaviewer-enable'] = 1;
