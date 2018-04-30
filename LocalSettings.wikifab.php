@@ -194,3 +194,6 @@ $wfexploreCategoriesNames['I_did_it'] = wfMessage('wfexplore-filters-ididit');
 $wfexploreCategoriesNames['Favorites'] = wfMessage('wfexplore-filters-favorites');
 
 $wgDefaultUserOptions['multimediaviewer-enable'] = 1;
+
+//allow voting on comments
+$wgCommentStreamsEnableVoting = true;
