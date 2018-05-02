@@ -42,6 +42,7 @@ wfLoadExtension( 'SimpleEmbedVideo' );
 wfLoadExtension( 'Tabber');
 wfLoadExtension( 'UsersPagesLinks' );
 wfLoadExtension( 'CommentStreams' );
+wfLoadExtension( 'CommentsProperty' );
 
 
 $wgScribuntoDefaultEngine = 'luastandalone';
@@ -171,6 +172,11 @@ $wfexploreDynamicsFilters = [
 'type' => 'sort',
 'translate_prefix' => 'wfexplore-ga-last-modified'
 ],
+'Comments' => [
+'name' => 'Comments',
+'type' => 'sort',
+'translate_prefix' => 'wfexplore-comments'
+],
 'I_did_it' => [
 'name' => 'I_did_it',
 'type' => 'sort',
@@ -192,6 +198,7 @@ $wfexploreCategoriesNames['Page_creator'] = wfMessage("wfexplore-filters-page-cr
 $wfexploreCategoriesNames['Google_Analytics_Views'] = wfMessage('wfexplore-filters-views');
 $wfexploreCategoriesNames['I_did_it'] = wfMessage('wfexplore-filters-ididit');
 $wfexploreCategoriesNames['Favorites'] = wfMessage('wfexplore-filters-favorites');
+$wfexploreCategoriesNames['Comments'] = wfMessage('wfexplore-filters-comments');
 
 $wgDefaultUserOptions['multimediaviewer-enable'] = 1;
 
